@@ -1,5 +1,7 @@
 # Content-based-DNN-Recommender
 
+The methodology is proposed by Coursera course - Recommendation Systems with TensorFlow on GCP. The code is provided by Kylie Fu. 
+
 The goal of this project is to recommend an article for a visitor to the site. The information of current content -- content ID, category (news, lifestyle, etc.), title, author, date -- are used to predict the next content for the user. 
 
 Input variables:
