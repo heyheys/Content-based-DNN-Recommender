@@ -14,6 +14,6 @@ Target variable:
 
 The neural network has four hidden layers.
 
-The dataset is pulled from the publicly avialable Kurier.at dataset in BigQuery using SQL queries. Kurier.at is an Austrian newsite. The data have already separated to training set (179,092 records) and test set (25,599 records, some records may belong to the same visitor).
+The dataset is pulled from the publicly avialable Kurier.at dataset in BigQuery using SQL queries. Kurier.at is an Austrian newsite. The train and test sets are pulled through the PullData.ipynb file and stored under this directory. The training set has 179,092 records and test set has 25,599 records (some records may belong to the same visitor).
 
 The accuracy is 0.06 and the top 10 accuracy is 0.32.
